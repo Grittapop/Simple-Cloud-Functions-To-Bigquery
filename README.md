@@ -1,5 +1,9 @@
-# simple-cloud-functions-to-bigquery
+# Simple-Cloud-Functions-to-Bigquery
 Cloud Functions streaming insert to BigQuery (with Cloud Pub/Sub trigger). In this example, the function will make a REST API call to get a data and insert to BigQuery.
+
+# Architecture: Serverless batch insert
+
+![pubsup](https://github.com/user-attachments/assets/2228f4c0-d26a-4500-9a80-9b7e18657e53)
 
 # Steps to run
 1. Create BigQuery table with a proper schema (using Google Cloud Console).
